@@ -1,0 +1,20 @@
+2023-11-09 13:20:06.262 [info] Log level: Info
+2023-11-09 13:20:06.262 [info] Validating found git in: "git"
+2023-11-09 13:20:06.262 [info] Using git "2.34.1" from "git"
+2023-11-09 13:20:06.290 [info] > git rev-parse --show-toplevel [98ms]
+2023-11-09 13:20:06.355 [info] > git rev-parse --git-dir --git-common-dir [49ms]
+2023-11-09 13:20:06.403 [info] Open repository: /mnt/c/Users/vanes/OneDrive/Documents/coursework/unit/block15-froyo
+2023-11-09 13:20:06.461 [info] > git config --get commit.template [37ms]
+2023-11-09 13:20:06.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [296ms]
+2023-11-09 13:20:06.763 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/unit/block15-froyo/index.js [44ms]
+2023-11-09 13:20:06.887 [info] > git cat-file -s 20ccd15c8af16d2115fd32d4558fbc63164afd0c [117ms]
+2023-11-09 13:20:06.891 [info] > git show --textconv :index.js [182ms]
+2023-11-09 13:20:07.041 [info] > git check-ignore -v -z --stdin [68ms]
+2023-11-09 13:20:07.067 [info] > git status -z -uall [327ms]
+2023-11-09 13:20:07.133 [info] > git config --get commit.template [41ms]
+2023-11-09 13:20:07.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [305ms]
+2023-11-09 13:20:07.747 [info] > git status -z -uall [333ms]
+2023-11-09 13:20:13.873 [info] > git fetch [7471ms]
+2023-11-09 13:20:13.926 [info] > git config --get commit.template [35ms]
+2023-11-09 13:20:14.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [277ms]
+2023-11-09 13:20:14.501 [info] > git status -z -uall [312ms]

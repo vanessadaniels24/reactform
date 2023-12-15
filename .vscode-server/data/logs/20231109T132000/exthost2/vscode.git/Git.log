@@ -1,0 +1,43 @@
+2023-11-09 13:20:32.862 [info] Log level: Info
+2023-11-09 13:20:32.862 [info] Validating found git in: "git"
+2023-11-09 13:20:32.862 [info] Using git "2.34.1" from "git"
+2023-11-09 13:20:32.878 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-09 13:20:32.878 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 13:20:32.968 [info] > git rev-parse --show-toplevel [61ms]
+2023-11-09 13:20:33.024 [info] > git rev-parse --git-dir --git-common-dir [32ms]
+2023-11-09 13:20:33.056 [info] Open repository: /mnt/c/Users/vanes/OneDrive/Documents/coursework/unit/Unit2.Numbers.Starter
+2023-11-09 13:20:33.095 [info] > git config --get commit.template [27ms]
+2023-11-09 13:20:33.127 [info] > git rev-parse --show-toplevel [51ms]
+2023-11-09 13:20:33.185 [info] > git rev-parse --git-dir --git-common-dir [47ms]
+2023-11-09 13:20:33.205 [info] Open repository: /mnt/c/Users/vanes/OneDrive/Documents/coursework/unit/block15-froyo
+2023-11-09 13:20:33.258 [info] > git config --get commit.template [36ms]
+2023-11-09 13:20:33.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [210ms]
+2023-11-09 13:20:33.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [298ms]
+2023-11-09 13:20:33.612 [info] > git status -z -uall [307ms]
+2023-11-09 13:20:33.659 [info] > git config --get commit.template [25ms]
+2023-11-09 13:20:33.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [218ms]
+2023-11-09 13:20:33.869 [info] > git status -z -uall [322ms]
+2023-11-09 13:20:33.903 [info] > git check-ignore -v -z --stdin [54ms]
+2023-11-09 13:20:33.917 [info] > git check-ignore -v -z --stdin [62ms]
+2023-11-09 13:20:33.924 [info] > git config --get commit.template [32ms]
+2023-11-09 13:20:34.137 [info] > git status -z -uall [268ms]
+2023-11-09 13:20:34.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [292ms]
+2023-11-09 13:20:34.482 [info] > git status -z -uall [283ms]
+2023-11-09 13:20:35.504 [info] > git rev-parse --show-toplevel [14ms]
+2023-11-09 13:20:35.504 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 13:20:40.724 [info] > git fetch [7668ms]
+2023-11-09 13:20:40.724 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/vanessadaniels24/Unit2.Numbers.Starter.git/'
+2023-11-09 13:20:40.763 [info] > git config --get commit.template [28ms]
+2023-11-09 13:20:40.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [237ms]
+2023-11-09 13:20:41.296 [info] > git status -z -uall [306ms]
+2023-11-09 13:20:43.715 [info] > git fetch [10510ms]
+2023-11-09 13:20:43.772 [info] > git config --get commit.template [35ms]
+2023-11-09 13:20:44.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [300ms]
+2023-11-09 13:20:44.407 [info] > git status -z -uall [337ms]

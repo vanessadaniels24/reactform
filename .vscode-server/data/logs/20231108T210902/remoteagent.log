@@ -1,0 +1,13 @@
+2023-11-08 21:09:02.963 [info] 
+
+
+
+
+2023-11-08 21:09:02.964 [info] Extension host agent started.
+2023-11-08 21:09:02.964 [info] Started initializing default profile extensions in extensions installation folder. file:///home/nessa1/.vscode-server/extensions
+2023-11-08 21:09:02.978 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/nessa1/.vscode-server/extensions
+2023-11-08 21:09:03.138 [info] [127.0.0.1][2ae0e682][ManagementConnection] New connection established.
+2023-11-08 21:09:03.398 [info] [127.0.0.1][8d2b430b][ExtensionHostConnection] New connection established.
+2023-11-08 21:09:03.429 [info] [127.0.0.1][8d2b430b][ExtensionHostConnection] <163> Launched Extension Host Process.
+2023-11-08 21:09:52.906 [info] [127.0.0.1][2ae0e682][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-08 21:09:52.959 [info] [127.0.0.1][8d2b430b][ExtensionHostConnection] <163> Extension Host Process exited with code: 0, signal: null.

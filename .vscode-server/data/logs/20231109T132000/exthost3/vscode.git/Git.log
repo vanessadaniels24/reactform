@@ -1,0 +1,88 @@
+2023-11-09 13:22:32.622 [info] Log level: Info
+2023-11-09 13:22:32.622 [info] Validating found git in: "git"
+2023-11-09 13:22:32.622 [info] Using git "2.34.1" from "git"
+2023-11-09 13:22:32.641 [info] > git rev-parse --show-toplevel [17ms]
+2023-11-09 13:22:32.641 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 13:22:32.728 [info] > git rev-parse --show-toplevel [52ms]
+2023-11-09 13:22:32.803 [info] > git rev-parse --git-dir --git-common-dir [43ms]
+2023-11-09 13:22:32.839 [info] Open repository: /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter
+2023-11-09 13:22:32.893 [info] > git config --get commit.template [34ms]
+2023-11-09 13:22:33.055 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [181ms]
+2023-11-09 13:22:33.316 [info] > git status -z -uall [250ms]
+2023-11-09 13:22:33.369 [info] > git config --get commit.template [30ms]
+2023-11-09 13:22:33.554 [info] > git check-ignore -v -z --stdin [154ms]
+2023-11-09 13:22:33.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [208ms]
+2023-11-09 13:22:33.675 [info] > git fetch [837ms]
+2023-11-09 13:22:33.675 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/FullstackAcademy/Unit2.GroceryList.Starter.git/'
+2023-11-09 13:22:33.688 [info] > git status -z -uall [126ms] (cancelled)
+2023-11-09 13:22:33.719 [info] > git config --get commit.template [31ms]
+2023-11-09 13:22:33.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [210ms]
+2023-11-09 13:22:34.223 [info] > git status -z -uall [302ms]
+2023-11-09 13:22:38.502 [info] > git check-ignore -v -z --stdin [60ms]
+2023-11-09 13:22:40.020 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [44ms]
+2023-11-09 13:22:40.098 [info] > git show --textconv :index.html [134ms]
+2023-11-09 13:22:40.150 [info] > git cat-file -s 7bf63d36410e7d882005b0b8bd3af85277e6ef2d [116ms]
+2023-11-09 13:22:43.695 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.js [112ms]
+2023-11-09 13:22:43.706 [info] > git show --textconv :index.js [138ms]
+2023-11-09 13:22:43.830 [info] > git cat-file -s 53a6f58bdfe3999ed8cec32f8695575736c18492 [125ms]
+2023-11-09 22:24:01.693 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.js [22ms]
+2023-11-09 22:24:01.722 [info] > git cat-file -s 53a6f58bdfe3999ed8cec32f8695575736c18492 [23ms]
+2023-11-09 22:24:01.727 [info] > git show --textconv :index.js [63ms]
+2023-11-09 22:24:08.123 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-09 22:24:08.123 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 22:24:08.633 [info] > git check-ignore -v -z --stdin [17ms]
+2023-11-09 22:24:11.333 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [32ms]
+2023-11-09 22:24:11.346 [info] > git show --textconv HEAD:index.html [54ms]
+2023-11-09 22:24:53.411 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [41ms]
+2023-11-09 22:24:57.857 [info] > git rev-parse --show-toplevel [9ms]
+2023-11-09 22:24:57.857 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 22:24:57.937 [info] > git rev-parse --show-toplevel [5ms]
+2023-11-09 22:24:57.937 [info] fatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-11-09 22:25:06.574 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [44ms]
+2023-11-09 22:25:54.726 [info] > git add -A -- . [72ms]
+2023-11-09 22:25:55.152 [info] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+2023-11-09 22:25:55.155 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/.git/COMMIT_EDITMSG [10ms]
+2023-11-09 22:25:55.455 [info] > git check-ignore -v -z --stdin [10ms]
+2023-11-09 22:26:19.420 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [56ms]
+2023-11-09 22:26:19.454 [info] > git -c user.useConfigOnly=true commit --quiet [24719ms]
+2023-11-09 22:26:19.477 [info] > git config --get commit.template [13ms]
+2023-11-09 22:26:19.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [81ms]
+2023-11-09 22:26:19.640 [info] > git status -z -uall [82ms]
+2023-11-09 22:26:19.715 [info] > git config --get commit.template [14ms]
+2023-11-09 22:26:19.789 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [79ms]
+2023-11-09 22:26:19.870 [info] > git status -z -uall [75ms]
+2023-11-09 22:26:37.524 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [46ms]
+2023-11-09 22:26:37.552 [info] > git log --oneline --cherry main...main@{upstream} -- [64ms]
+2023-11-09 22:26:37.597 [info] > git show --textconv HEAD:index.html [63ms]
+2023-11-09 22:26:38.296 [info] > git pull --tags origin main [737ms]
+2023-11-09 22:26:38.296 [info] From https://github.com/FullstackAcademy/Unit2.GroceryList.Starter
+ * branch            main       -> FETCH_HEAD
+2023-11-09 22:26:38.630 [info] > git push origin main:main [329ms]
+2023-11-09 22:26:38.630 [info] remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/FullstackAcademy/Unit2.GroceryList.Starter.git/': The requested URL returned error: 403
+2023-11-09 22:26:38.648 [info] > git config --get commit.template [12ms]
+2023-11-09 22:26:38.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [68ms]
+2023-11-09 22:26:38.784 [info] > git status -z -uall [68ms]
+2023-11-09 22:26:45.920 [info] > git ls-tree -l HEAD -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.html [49ms]
+2023-11-09 22:26:50.861 [info] > git log --oneline --cherry main...main@{upstream} -- [76ms]
+2023-11-09 22:26:51.585 [info] > git pull --tags origin main [719ms]
+2023-11-09 22:26:51.585 [info] From https://github.com/FullstackAcademy/Unit2.GroceryList.Starter
+ * branch            main       -> FETCH_HEAD
+2023-11-09 22:26:51.931 [info] > git push origin main:main [341ms]
+2023-11-09 22:26:51.931 [info] remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/FullstackAcademy/Unit2.GroceryList.Starter.git/': The requested URL returned error: 403
+2023-11-09 22:26:51.953 [info] > git config --get commit.template [12ms]
+2023-11-09 22:26:52.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [79ms]
+2023-11-09 22:26:52.105 [info] > git status -z -uall [72ms]
+2023-11-09 22:28:30.319 [info] > git ls-files --stage -- /mnt/c/Users/vanes/OneDrive/Documents/coursework/block16/Unit2.GroceryList.Starter/index.js [9ms]
+2023-11-09 22:28:30.344 [info] > git show --textconv :index.js [41ms]
+2023-11-09 22:28:30.352 [info] > git cat-file -s 4957e2201204fda14994ae3b4ab0b629189d265d [28ms]
