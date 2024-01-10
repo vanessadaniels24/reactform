@@ -1,0 +1,25 @@
+2024-01-09 17:22:49.578 [info] Log level: Info
+2024-01-09 17:22:49.578 [info] Validating found git in: "git"
+2024-01-09 17:22:49.578 [info] Using git "2.34.1" from "git"
+2024-01-09 17:22:49.588 [info] > git rev-parse --show-toplevel [8ms]
+2024-01-09 17:22:49.603 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-01-09 17:22:49.640 [info] Open repository: /home/nessa1
+2024-01-09 17:22:49.692 [info] > git config --get commit.template [29ms]
+2024-01-09 17:22:49.695 [info] > git rev-parse --show-toplevel [10ms]
+2024-01-09 17:22:49.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2024-01-09 17:22:49.759 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-09 17:22:50.483 [info] > git fetch [844ms]
+2024-01-09 17:22:50.483 [info] From https://github.com/vanessadaniels24/Unit2.Froyo
+ * [new branch]      main       -> origin/main
+2024-01-09 17:22:50.516 [info] > git status -z -uall [762ms] (cancelled)
+2024-01-09 17:22:50.520 [info] > git config --get commit.template [6ms]
+2024-01-09 17:22:50.521 [info] > git config --get commit.template [21ms]
+2024-01-09 17:22:50.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-01-09 17:22:50.543 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-01-09 17:22:57.514 [info] > git status -z -uall [6962ms]
+2024-01-09 17:23:01.220 [info] > git check-ignore -v -z --stdin [3441ms]
+2024-01-09 17:23:01.683 [info] > git check-ignore -v -z --stdin [4ms]
+2024-01-09 17:23:03.952 [info] > git check-ignore -v -z --stdin [8ms]
+2024-01-09 17:23:04.326 [info] > git config --get commit.template [17ms]
+2024-01-09 17:23:04.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-01-09 17:23:08.314 [info] > git status -z -uall [3979ms]

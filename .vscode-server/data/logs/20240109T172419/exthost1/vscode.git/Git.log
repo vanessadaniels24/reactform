@@ -1,0 +1,23 @@
+2024-01-09 17:24:24.801 [info] Log level: Info
+2024-01-09 17:24:24.801 [info] Validating found git in: "git"
+2024-01-09 17:24:24.801 [info] Using git "2.34.1" from "git"
+2024-01-09 17:24:24.801 [info] > git rev-parse --show-toplevel [4ms]
+2024-01-09 17:24:24.801 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2024-01-09 17:24:24.801 [info] Open repository: /home/nessa1
+2024-01-09 17:24:24.801 [info] > git rev-parse --show-toplevel [5ms]
+2024-01-09 17:24:24.801 [info] > git config --get commit.template [17ms]
+2024-01-09 17:24:24.837 [info] > git rev-parse --show-toplevel [6ms]
+2024-01-09 17:24:24.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2024-01-09 17:24:26.415 [info] > git check-ignore -v -z --stdin [10ms]
+2024-01-09 17:24:27.019 [info] > git fetch [2265ms]
+2024-01-09 17:24:27.344 [info] > git status -z -uall [2478ms] (cancelled)
+2024-01-09 17:24:27.354 [info] > git config --get commit.template [11ms]
+2024-01-09 17:24:27.355 [info] > git config --get commit.template [26ms]
+2024-01-09 17:24:27.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [107ms]
+2024-01-09 17:24:27.485 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [110ms]
+2024-01-09 17:24:29.436 [info] > git check-ignore -v -z --stdin [5ms]
+2024-01-09 17:24:31.493 [info] > git check-ignore -v -z --stdin [7ms]
+2024-01-09 17:24:32.718 [info] > git status -z -uall [5225ms]
+2024-01-09 17:24:43.219 [info] > git config --get commit.template [2ms]
+2024-01-09 17:24:43.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-01-09 17:24:47.435 [info] > git status -z -uall [4194ms]
