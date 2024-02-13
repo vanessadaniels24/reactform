@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "package-name": "^0.1.0"
+  },
+  "dependencies": {
+    "redux": "^5.0.1"
+  }
+}
